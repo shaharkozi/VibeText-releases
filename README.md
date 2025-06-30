@@ -1,4 +1,4 @@
-# VibeText 
+# VibeText Homebrew Tap
 
 🍺 Official Homebrew tap for [VibeText](https://github.com/shaharkozi/VibeText) - Your AI-powered text assistant.
 
@@ -6,10 +6,10 @@
 
 ```bash
 # Add the tap
-brew tap shaharkozi/hombrew-formulas https://github.com/shaharkozi/hombrew-formulas.git
+brew tap shaharkozi/homebrew-formulas https://github.com/shaharkozi/homebrew-formulas.git
 
 # Install VibeText
-brew install shaharkozi/hombrew-formulas/vibetext
+brew install shaharkozi/homebrew-formulas/vibetext
 ```
 
 ## 🚀 Launch VibeText
@@ -49,12 +49,39 @@ ollama serve        # Start Ollama only
 
 VibeText is an intelligent desktop application that helps you improve your writing with powerful AI commands:
 
+### 📝 **Text Enhancement**
 - **@prettier** - Polish and improve text quality
 - **@fixGrammar** - Fix grammatical errors
 - **@rephrase** - Rewrite in different styles  
 - **@changeTone** - Adjust tone (formal, casual, friendly, etc.)
-- **@summarize** - Create concise summaries
-- **@translate** - Translate to different languages
+
+### 💼 **Professional Communication**
+- **@slack** - Transform text into professional Slack messages (auto-adjusts tone based on audience)
+- **@email** - Enhance emails while keeping your natural voice (supports formality levels)
+- **@linkedin** - Create engaging, human-sounding LinkedIn posts with tone-specific emojis
+
+## Quick Examples
+
+**Slack Message:**
+```
+Step 1: @slack hey can u send me that file asap thx
+Step 2: teammates
+Result: "Hi! Could you send me that file when you get a chance? Thanks!"
+```
+
+**LinkedIn Post:**
+```
+Step 1: @linkedin just shipped our new feature after months of work
+Step 2: excited  
+Result: "Just shipped something I've been working on! 🚀 It's been a wild ride but totally worth it..."
+```
+
+**Email Enhancement:**
+```
+Step 1: @email hi john, can you review this code when u get a chance
+Step 2: semi-formal
+Result: "Hi John, Could you please review this code when you have time? Thanks, [Your name]"
+```
 
 ## Features
 
@@ -63,6 +90,9 @@ VibeText is an intelligent desktop application that helps you improve your writi
 🤖 **Powered by Llama 3** - Advanced AI via Ollama  
 ⚡ **Fast & Local** - All processing happens on your machine  
 🔒 **Privacy First** - Your text never leaves your computer  
+💬 **Multi-Platform Writing** - Optimized for Slack, Email, and LinkedIn  
+🎭 **Smart Tone Adaptation** - AI auto-determines appropriate tone based on context  
+😊 **Emoji Integration** - Adds contextually relevant emojis to enhance communication  
 
 ## Requirements
 
