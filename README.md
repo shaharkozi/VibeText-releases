@@ -56,7 +56,12 @@ VibeText is an intelligent desktop application that helps you improve your writi
 - **@changeTone** - Adjust tone (formal, casual, friendly, etc.)
 
 ### 💼 **Professional Communication**
-- **@slack** - Transform text into professional Slack messages (auto-adjusts tone based on audience)
+- **@slack** - Transform text into professional Slack messages with proper markdown formatting
+  - Auto-adjusts tone based on audience (teammates, manager, client, etc.)
+  - Applies technical formatting: `backticks` for code, **bold** for emphasis, _italics_ for quotes
+  - Formats links as clickable: `<URL|link text>`
+  - **Setup Required:** Enable "Format messages with markup" in Slack preferences
+  - **[➜ Slack Setup Guide](https://slack.com/help/articles/360039953113-Set-your-message-formatting-preference)**
 - **@email** - Enhance emails while keeping your natural voice (supports formality levels)
 - **@linkedin** - Create engaging, human-sounding LinkedIn posts with tone-specific emojis
 
@@ -64,9 +69,10 @@ VibeText is an intelligent desktop application that helps you improve your writi
 
 **Slack Message:**
 ```
-Step 1: @slack hey can u send me that file asap thx
+Step 1: @slack having issues with lambda function, can't find backoff v2.2.1
 Step 2: teammates
-Result: "Hi! Could you send me that file when you get a chance? Thanks!"
+Result: "Hey team! 🤔 I'm having issues with the `Lambda` function - it can't find version 2.2.1 of `backoff`. 
+Has anyone worked with this before? I think I might need to add the Python SDK as a layer."
 ```
 
 **LinkedIn Post:**
@@ -83,6 +89,18 @@ Step 2: semi-formal
 Result: "Hi John, Could you please review this code when you have time? Thanks, [Your name]"
 ```
 
+## 🔧 **Slack Setup for Best Results**
+
+To get proper code formatting with backticks in Slack messages, you need to enable markup formatting:
+
+1. In Slack, click your **Profile picture** → **Preferences**
+2. Go to **Advanced** → **Input Options**  
+3. Check **"Format messages with markup"**
+
+📖 **[➜ See Slack's Official Setup Guide](https://slack.com/help/articles/360039953113-Set-your-message-formatting-preference)**
+
+Without this setting, backticks around technical terms will show as literal characters instead of code formatting.
+
 ## Features
 
 ✨ **Simple Commands** - Just type @ or / to see available commands  
@@ -93,6 +111,8 @@ Result: "Hi John, Could you please review this code when you have time? Thanks, 
 💬 **Multi-Platform Writing** - Optimized for Slack, Email, and LinkedIn  
 🎭 **Smart Tone Adaptation** - AI auto-determines appropriate tone based on context  
 😊 **Emoji Integration** - Adds contextually relevant emojis to enhance communication  
+🔧 **Technical Formatting** - Automatically formats code terms, links, and technical content for Slack  
+📝 **Markdown Support** - Proper bold, italic, code block, and link formatting  
 
 ## Requirements
 
