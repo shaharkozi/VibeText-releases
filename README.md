@@ -131,7 +131,7 @@ Without this setting, backticks around technical terms will show as literal char
 
 - **Issues:** [GitHub Issues](https://github.com/shaharkozi/VibeText/issues)
 - **Email:** shaharkozi12@gmail.com
-- **Developer:** [Shahar Kozi](https://github.com/shaharkozi)
+- **Developer:** [Shahar Kozenyuk](https://github.com/shaharkozi)
 
 ## License
 
