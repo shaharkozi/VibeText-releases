@@ -14,25 +14,19 @@ brew install shaharkozi/homebrew-formulas/vibetext
 
 ## 🚀 Launch VibeText
 
-### Option 1: Quick Start (Recommended)
+### Quick Start (Recommended)
 ```bash
 vibetext
 ```
 
-### Option 2: Add to Applications
-**📱 For easier access, drag the app to Applications:**
-```bash
-# This opens Finder and highlights the app - just drag it to Applications!
-open -R $(brew --prefix)/Cellar/vibetext/*/*.app
-```
+**Note:** The first startup will set up Ollama and download the model, which may take a few minutes.
 
-> **Note:** If you see a permission error when installing, you can manually drag the app from the Homebrew directory to your Applications folder, or run it directly using the `vibetext` command.
 
 The `vibetext` command automatically:
 - ✅ Starts Ollama server
 - ✅ Starts VibeText backend  
 - ✅ Opens the VibeText app
-- ✅ Llama 3 model is pre-installed during brew install
+- ✅ Gemma2:9b model is pre-installed during brew install
 
 **To stop everything:**
 ```bash
@@ -105,7 +99,7 @@ Without this setting, backticks around technical terms will show as literal char
 
 ✨ **Simple Commands** - Just type @ or / to see available commands  
 🎨 **Beautiful UI** - Modern, clean interface built with React and Tauri  
-🤖 **Powered by Llama 3** - Advanced AI via Ollama  
+🤖 **Powered by Gemma2:9b** - Advanced AI via Ollama  
 ⚡ **Fast & Local** - All processing happens on your machine  
 🔒 **Privacy First** - Your text never leaves your computer  
 💬 **Multi-Platform Writing** - Optimized for Slack, Email, and LinkedIn  
@@ -117,7 +111,7 @@ Without this setting, backticks around technical terms will show as literal char
 ## Requirements
 
 - macOS 10.15 or later
-- ~4GB free space for AI model
+- ~5GB free space for AI model
 - Ollama (automatically installed as dependency)
 
 ## Technology Stack
@@ -125,13 +119,12 @@ Without this setting, backticks around technical terms will show as literal char
 - **Frontend:** React + Tauri
 - **Backend:** Go
 - **AI Runtime:** Ollama
-- **AI Model:** Llama 3
 
 ## Support
 
 - **Issues:** [GitHub Issues](https://github.com/shaharkozi/VibeText/issues)
 - **Email:** shaharkozi12@gmail.com
-- **Developer:** [Shahar Kozenyuk](https://github.com/shaharkozi)
+- **Developer:** [Shahar Kozi](https://github.com/shaharkozi)
 
 ## License
 
